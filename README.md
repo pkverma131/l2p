@@ -12,9 +12,10 @@ $ sudo apt-get install build-essential libssl-dev libcurl4-gnutls-dev  libexpat1
 $ sudo apt-get install git # Install git
 
 $ git --version
-
+```
 # Install virtual env, create virtual env with python2.7 and activate virtual env to be used for django project
-$ sudo pip install virtualenv
+
+```$ sudo pip install virtualenv
 
 $ mkdir ENVS && cd ENVS
 
@@ -63,4 +64,4 @@ $ sudo service apache2 restart
 
 ```
 $ sudo apt-get install mysql-server
-``
+```
